@@ -1,0 +1,28 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\begin{document}
+
+\begin{tabular}{l*{3}{S}}\toprule        
+                   & {Mean/s.d.} & {Mean/s.d.} &{Mean/s.d.} \\ \midrule
+      Var A        & 8.68        & 8.51        & 8.92       \\
+                   & 2.42        & 2.51        & 2.26       \\ \addlinespace
+      Var B        & 2.14        & 1.98        & 2.37       \\
+                   & 1.33        & 1.29        & 1.35       \\ \midrule 
+      Observations & {38040}     & {22054}     & {15986}    \\ \bottomrule
+\end{tabular}
+
+\bigskip
+
+\begin{tabular}{r*{3}{S}}\toprule        
+      $T$/\unit{K}        &  $k$ / L mol$^{-1}$s$^{-1}$  \\ \midrule
+      600        &  0.0000531         \\
+      700        &  0.0159         \\ 
+      800        &  1.15         \\
+      900        &  32.0         \\ 
+      1000       &  458.         \\ \bottomrule
+\end{tabular}
+
+\end{document}
